@@ -419,30 +419,48 @@ article h3 span {
 
 /* Basic styles for individual cards */
 .card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ddd;
+    /* background-color: #f9f9f9; */
+    padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid black;
+    /* box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.571); */
     transition: transform 0.3s ease;
 }
-
 /* Styling the card on hover */
 .card:hover {
     transform: translateY(-5px);
+    cursor: pointer;
     /* Moves the card up slightly on hover */
 }
 
 /* Basic styles for the headings and paragraphs */
-.card h2 {
+.card h4 {
+    display: flex;
+    justify-content: space-between;
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom:10px;
+    font-weight: 600;
+    padding: 1rem;
     color: #333;
+}
+.card h4:hover{
+    color: var(--secondary-color);
 }
 
 .card p {
     font-size: 1rem;
+    padding: 1rem;
+    line-height: 2rem;
     color: #666;
+}
+.simple-setup{
+    padding: 1rem;
+}
+.simple-setup h3{
+    text-align: center;
+    padding: 2rem ;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 /* .side-menu-items li:hover */
@@ -590,7 +608,7 @@ article h3 span {
         -webkit-text-stroke: 1px var(--hover-color);
     }
     .hero div:nth-child(1){
-        padding: 1rem 0;
+        padding: 5rem 0;
 
     }
 
@@ -618,20 +636,24 @@ article h3 span {
     article svg {
         position: absolute;
         bottom: 0;
-        right: 37%;
-        height: 120px;
-        width: 120px;
+        right: 32%;
+        height: 140px;
+        width: 140px;
 
     }
 
     article h3 {
         font-size: 1.2rem;
-        line-height: normal;
+        line-height: 2rem;
         /* text-align: center; */
     }
 
     .card-container {
         grid-template-columns: 1fr;
         /* Switch to 1 column on very small screens */
+    }
+    .simple-setup h3{
+        font-size: 1rem;
+        padding: 1rem 0 0 0;
     }
 }
