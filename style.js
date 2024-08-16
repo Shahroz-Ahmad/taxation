@@ -32,9 +32,9 @@ gsap.fromTo("#animated-text span",
     { 
         delay:0.5,
         opacity: 1, 
-        y: 0,       // Animate to the final position
-        duration: 0.2, // Speed of each letter
-        stagger: 0.05,  // Delay between letters
-        ease: "power1.out" // Easing function
+        y: 0,       
+        duration: 0.2, 
+        stagger: 0.05,  
+        ease: "power1.out"
     }
 );
