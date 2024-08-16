@@ -308,7 +308,6 @@ header {
     justify-items: center;
     height: 90%;
     width: 100%;
-    padding: 1rem 0;
     background-image: linear-gradient(rgb(45, 76, 61, 0.801), rgba(45, 76, 61, 0.801)), url(./images/people-in-the-office.jpg);
     background-size: cover;
 
@@ -589,6 +588,10 @@ article h3 span {
             } */
     .hero h1 span {
         -webkit-text-stroke: 1px var(--hover-color);
+    }
+    .hero div:nth-child(1){
+        padding: 1rem 0;
+
     }
 
     .hero p {
