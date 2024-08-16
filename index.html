@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <nav></nav> -->
+    <main>
+        <nav>
+            <h6>LOGO</h6>
+            <div class="hamburger" id="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </div>
+            <ul class="parenUl" id="navMenu">
+                <li>Setup
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="dropdown">
+                        <li><a href="#monthly-fees">Monthly Fees</a></li>
+                        <li><a href="#existing-take-on">Existing Take-on</a></li>
+                        <li><a href="#free-schedule">Free Schedule</a></li>
+                        <li><a href="#bgl-simple-fund">BGL Simple Fund</a></li>
+                        <li><a href="#direct-debit-payment">Direct Debit Payment</a></li>
+                        <li><a href="#ato-supervisory">ATO Supervisory</a></li>
+                        <li><a href="#corporate-trustee">Corporate Trustee</a></li>
+                        <li><a href="#annual-administration">Annual Administration</a></li>
+                        <li><a href="#what-we-do">What we do</a></li>
+                        <li><a href="#setup-costs-tax-deductibility">Set-up Costs Tax Deductibility</a></li>
+                        <li><a href="#setup-times">Set-up Times</a></li>
+                        <li><a href="#super-streams">Super Streams</a></li>
+                        <li><a href="#trustee-access">Trustee access to Online Business Portal</a></li>
+                    </ul>
+                </li>
+                <li>Assets
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="dropdown">
+                        <li><a href="#smsf">What is an SMSF?</a></li>
+                        <li><a href="#benefits">Benefits of SMSF</a></li>
+                        <li><a href="#minimum-balance">Minimum Balance</a></li>
+                        <li class="lichild">Legislation and Rules
+                            <svg xmlns="http://www.w3.org/2000/svg" class="caret-right" viewBox="0 0 256 512">
+                                <path
+                                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                            </svg>
+                            <ul class="dropdown">
+                                <li><a href="#legislation-rules">Legislation and Rules</a></li>
+                                <li><a href="#fatca">FATCA</a></li>
+                                <li><a href="#covid-19">COVID-19 and Superannuation</a></li>
+                                <li><a href="#disqualified-trustees">Disqualified Trustees</a></li>
+                                <li><a href="#superannuation-guarantee-rates">Superannuation Guarantee Rates</a>
+                                </li>
+                            </ul>
+                            </a>
+                        </li>
+                        <li class="lichild">Education
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="caret-right" viewBox="0 0 256 512">
+                                <path
+                                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                            </svg>
+                            <ul class="dropdown">
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#corona-relief">Corona Relief</a></li>
+                            </ul>
+
+                        </li>
+                        <li><a href="#sole-purpose-test">Sole Purpose Test</a></li>
+                        <li><a href="#residency">Residency of an SMSF</a></li>
+                        <li><a href="#financial-advice">Financial Advice</a></li>
+                        <li><a href="#choice-of-fund">Choice of Fund</a></li>
+                        <li><a href="#ato-regulator">ATO as Regulator</a></li>
+                        <li class="lichild">Investment Property
+                            <svg xmlns="http://www.w3.org/2000/svg" class="caret-right" viewBox="0 0 256 512">
+                                <path
+                                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                            </svg>
+                            <ul class="dropdown">
+                                <li><a href="#property-investment-rules">Property Investment Rules</a></li>
+                                <li><a href="#smsf-borrowing-rules">SMSF Borrowing Rules</a></li>
+                                <li><a href="#smsf-loans">SMSF Loans</a></li>
+                                <li><a href="#related-party-loans">Related Party Loans</a></li>
+                                <li><a href="#usa-property-investment">USA Property Investment</a></li>
+                                <li><a href="#nras-investment-property">NRAS Investment Property</a></li>
+                                <li><a href="#property-examples">Property examples for an SMSF</a></li>
+                                <li><a href="#annual-asset-revaluation">Annual Asset Revaluation</a></li>
+                                <li><a href="#bare-trust-details">Bare Trust Details</a></li>
+                                <li><a href="#property-development">Property Development</a></li>
+                                <li><a href="#airbnb">AirBnB</a></li>
+                                <li><a href="#property-lease">Property Lease</a></li>
+                            </ul>
+                        </li>
+                        <li class="lichild">Investments
+                            <svg xmlns="http://www.w3.org/2000/svg" class="caret-right" viewBox="0 0 256 512">
+                                <path
+                                    d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z" />
+                            </svg>
+                            <ul class="dropdown">
+                                <li><a href="#gold-investment">Gold Investment</a></li>
+                                <li><a href="#how-to-buy-gold">How to Buy Gold with Your Superannuation</a></li>
+                                <li><a href="#collectables-personal-use-assets">Collectables and Personal Use Assets</a>
+                                </li>
+                                <li><a href="#managed-investment-schemes">Managed Investment Schemes</a></li>
+                                <li><a href="#unit-trusts">Unit Trusts</a></li>
+                                <li><a href="#cryptocurrency">Cryptocurrency</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#smsf-share-trading">SMSF Share Trading</a></li>
+                        <li><a href="#cfds">CFD’s</a></li>
+                        <li><a href="#trusted-smsf">Trusted SMSF Tax Return and Audit</a></li>
+                        <li><a href="#imputation-credits">Imputation Credits in a SMSF</a></li>
+                        <li><a href="#definitions">Definitions</a></li>
+                    </ul>
+                </li>
+                <li>Running
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="dropdown">
+                        <li><a href="#smsf-statistics">SMSF Statistics from ATO</a></li>
+                        <li><a href="#bank-accounts">Bank Accounts</a></li>
+                        <li><a href="#macquarie-cma">Macquarie Cash Management Account (CMA)</a></li>
+                        <li><a href="#macquarie-trading">Macquarie Online Trading</a></li>
+                        <li><a href="#add-member">Add a new Member to the SMSF</a></li>
+                        <li><a href="#smsf-trustee">Becoming an SMSF Trustee</a></li>
+                        <li><a href="#preservation-age">Preservation Age</a></li>
+                        <li><a href="#smsf-accounting">SMSF Accounting Melbourne</a></li>
+                        <li><a href="#expenses">Expenses in an SMSF</a></li>
+                        <li><a href="#insurance">Insurance</a></li>
+                        <li><a href="#divorce">Divorce</a></li>
+                        <li><a href="#estate-planning">Estate Planning</a></li>
+                        <li><a href="#winding-up">Winding up an SMSF</a></li>
+                        <li><a href="#transfer-benefits">Transfer Benefits in Superannuation</a></li>
+                        <li><a href="#actuarial-certificate">Actuarial Certificate SMSF</a></li>
+                        <li><a href="#tax-increase">SuperContributions Tax Increase on High Income</a></li>
+                        <li><a href="#corporate-trustee-address">Corporate Trustee Address Change</a></li>
+                        <li><a href="#splitting-spouse">Splitting with your Spouse</a></li>
+                    </ul>
+                </li>
+                <li>Contributions
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="dropdown">
+                        <li><a href="#tax">Tax</a></li>
+                        <li><a href="#concessional-contributions">Concessional Contributions</a></li>
+                        <li><a href="#non-concessional-contributions">Non-Concessional Contributions (NCC)</a></li>
+                        <li><a href="#bring-forward-rule">3-Year Bring Forward Rule on Non-Concessional
+                                Contributions</a></li>
+                        <li><a href="#self-employed-contributions">Self-Employed Contributions</a></li>
+                        <li><a href="#listo">LISTO</a></li>
+                        <li><a href="#government-co-contribution">Government Co-contribution</a></li>
+                        <li><a href="#downsizer-contributions">Downsizer Contributions</a></li>
+                        <li><a href="#work-test">Work Test</a></li>
+                        <li><a href="#spouse-contributions">Spouse Contributions</a></li>
+                        <li><a href="#first-home-super-saver">First Home Super Saver</a></li>
+                    </ul>
+                </li>
+                <li>Pensions Phase
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="dropdown">
+                        <li><a href="#pension-mode-smsf">Pension Mode SMSF</a></li>
+                        <li><a href="#transition-to-retirement">Transition to Retirement</a></li>
+                        <li><a href="#tbar">TBAR</a></li>
+                        <li><a href="#transfer-balance-cap">\$1.9 Million Transfer Balance Cap</a></li>
+                        <li><a href="#conditions-of-release">Conditions of Release</a></li>
+                        <li><a href="#transition-to-retirement-duplicate">Transition to Retirement (Duplicate)</a></li>
+                    </ul>
+                </li>
+                <li>Audit
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="dropdown">
+                        <li><a href="#engage-us">Engage Us</a></li>
+                        <li><a href="#audit-annual-return">Audit for Annual Return</a></li>
+                        <li><a href="#instant-audit-quote">Instant Audit Quote</a></li>
+                        <li><a href="#audit-trustee-diy-super">Audit Trustee DIY Super</a></li>
+                        <li><a href="#audit-checklist">Audit Checklist</a></li>
+                        <li><a href="#audit-results">Audit Results</a></li>
+                        <li><a href="#audit-planners">Audit Planners</a></li>
+                        <li><a href="#auditor-changes">Auditor Changes for SMSF’s</a></li>
+                        <li><a href="#auditor-independence">Auditor Independence</a></li>
+                        <li><a href="#investment-strategy-diversification">Investment Strategy Diversification</a></li>
+                        <li><a href="#technical-aspects">Technical Aspects</a></li>
+                    </ul>
+                </li>
+                <li>About Us
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="dropdown">
+                        <li><a href="#warehouse-team">Superannuation Warehouse Team</a></li>
+                        <li><a href="#smsf-news">SMSF News</a></li>
+                        <li><a href="#smsf-qa">SMSF Q&A’s</a></li>
+                        <li><a href="#smsf-articles">SMSF Articles</a></li>
+                        <li><a href="#superannuation-blog">Superannuation Blog</a></li>
+                        <li><a href="#smsf-discussions">SMSF Discussions</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </nav>
+        <div class="side-menu" id="sideMenu">
+            <div class="close-btn" id="closeBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                </svg>
+            </div>
+            <ul class="side-menu-items">
+                <li>Setup
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="hello">
+                        <li><a href="#monthly-fees">Monthly Fees</a></li>
+                        <li><a href="#existing-take-on">Existing Take-on</a></li>
+                        <li><a href="#free-schedule">Free Schedule</a></li>
+                        <li><a href="#bgl-simple-fund">BGL Simple Fund</a></li>
+                        <li><a href="#direct-debit-payment">Direct Debit Payment</a></li>
+                        <li><a href="#ato-supervisory">ATO Supervisory</a></li>
+                        <li><a href="#corporate-trustee">Corporate Trustee</a></li>
+                        <li><a href="#annual-administration">Annual Administration</a></li>
+                        <li><a href="#what-we-do">What we do</a></li>
+                        <li><a href="#setup-costs-tax-deductibility">Set-up Costs Tax Deductibility</a></li>
+                        <li><a href="#setup-times">Set-up Times</a></li>
+                        <li><a href="#super-streams">Super Streams</a></li>
+                        <li><a href="#trustee-access">Trustee access to Online Business Portal</a></li>
+                    </ul>
+                </li>
+                <hr>
+                <li>Assets
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="hello">
+                        <li><a href="#smsf">What is an SMSF?</a></li>
+                        <li><a href="#benefits">Benefits of SMSF</a></li>
+                        <li><a href="#minimum-balance">Minimum Balance</a></li>
+                        <li><a href="#legislation">Legislation and Rules</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#sole-purpose-test">Sole Purpose Test</a></li>
+                        <li><a href="#residency">Residency of an SMSF</a></li>
+                        <li><a href="#financial-advice">Financial Advice</a></li>
+                        <li><a href="#choice-of-fund">Choice of Fund</a></li>
+                        <li><a href="#ato-regulator">ATO as Regulator</a></li>
+                        <li><a href="#investment-property">Investment Property</a></li>
+                        <li><a href="#investments">Investments</a></li>
+                        <li><a href="#smsf-share-trading">SMSF Share Trading</a></li>
+                        <li><a href="#cfds">CFD’s</a></li>
+                        <li><a href="#trusted-smsf">Trusted SMSF Tax Return and Audit</a></li>
+                        <li><a href="#imputation-credits">Imputation Credits in a SMSF</a></li>
+                        <li><a href="#definitions">Definitions</a></li>
+                    </ul>
+                </li>
+                <hr>
+                <li>Running
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="hello">
+                        <li><a href="#smsf-statistics">SMSF Statistics from ATO</a></li>
+                        <li><a href="#bank-accounts">Bank Accounts</a></li>
+                        <li><a href="#macquarie-cma">Macquarie Cash Management Account (CMA)</a></li>
+                        <li><a href="#macquarie-trading">Macquarie Online Trading</a></li>
+                        <li><a href="#add-member">Add a new Member to the SMSF</a></li>
+                        <li><a href="#smsf-trustee">Becoming an SMSF Trustee</a></li>
+                        <li><a href="#preservation-age">Preservation Age</a></li>
+                        <li><a href="#smsf-accounting">SMSF Accounting Melbourne</a></li>
+                        <li><a href="#expenses">Expenses in an SMSF</a></li>
+                        <li><a href="#insurance">Insurance</a></li>
+                        <li><a href="#divorce">Divorce</a></li>
+                        <li><a href="#estate-planning">Estate Planning</a></li>
+                        <li><a href="#winding-up">Winding up an SMSF</a></li>
+                        <li><a href="#transfer-benefits">Transfer Benefits in Superannuation</a></li>
+                        <li><a href="#actuarial-certificate">Actuarial Certificate SMSF</a></li>
+                        <li><a href="#tax-increase">SuperContributions Tax Increase on High Income</a></li>
+                        <li><a href="#corporate-trustee-address">Corporate Trustee Address Change</a></li>
+                        <li><a href="#splitting-spouse">Splitting with your Spouse</a></li>
+                        <li><a href="#year-end-requirements">Year end Requirements</a></li>
+                        <li><a href="#simplefund-packages">Packages for SimpleFund 360</a></li>
+                    </ul>
+                </li>
+                <hr>
+                <li>Contributions
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="hello">
+                        <li><a href="#tax">Tax</a></li>
+                        <li><a href="#concessional-contributions">Concessional Contributions</a></li>
+                        <li><a href="#non-concessional-contributions">Non-Concessional Contributions (NCC)</a></li>
+                        <li><a href="#bring-forward-rule">3-Year Bring Forward Rule on Non-Concessional
+                                Contributions</a></li>
+                        <li><a href="#self-employed-contributions">Self-Employed Contributions</a></li>
+                        <li><a href="#listo">LISTO</a></li>
+                        <li><a href="#government-co-contribution">Government Co-contribution</a></li>
+                        <li><a href="#downsizer-contributions">Downsizer Contributions</a></li>
+                        <li><a href="#work-test">Work Test</a></li>
+                        <li><a href="#spouse-contributions">Spouse Contributions</a></li>
+                        <li><a href="#first-home-super-saver">First Home Super Saver</a></li>
+                    </ul>
+                </li>
+                <hr>
+
+                <li>Pension phase
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="hello">
+                        <li><a href="#pension-mode-smsf">Pension Mode SMSF</a></li>
+                        <li><a href="#transition-to-retirement">Transition to Retirement</a></li>
+                        <li><a href="#tbar">TBAR</a></li>
+                        <li><a href="#transfer-balance-cap">$1.9 Million Transfer Balance Cap</a></li>
+                        <li><a href="#conditions-of-release">Conditions of Release</a></li>
+                        <li><a href="#transition-to-retirement-duplicate">Transition to Retirement (Duplicate)</a></li>
+                    </ul>
+                </li>
+                <hr>
+
+                <li>Audit
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="hello">
+                        <li><a href="#engage-us">Engage Us</a></li>
+                        <li><a href="#audit-annual-return">Audit for Annual Return</a></li>
+                        <li><a href="#instant-audit-quote">Instant Audit Quote</a></li>
+                        <li><a href="#audit-trustee-diy-super">Audit Trustee DIY Super</a></li>
+                        <li><a href="#audit-checklist">Audit Checklist</a></li>
+                        <li><a href="#audit-results">Audit Results</a></li>
+                        <li><a href="#audit-planners">Audit Planners</a></li>
+                        <li><a href="#auditor-changes">Auditor Changes for SMSF’s</a></li>
+                        <li><a href="#auditor-independence">Auditor Independence</a></li>
+                        <li><a href="#investment-strategy-diversification">Investment Strategy Diversification</a></li>
+                        <li><a href="#technical-aspects">Technical Aspects</a></li>
+                    </ul>
+                </li>
+                <hr>
+
+                <li>About Us
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arrow-down" viewBox="0 0 512 512">
+                        <path
+                            d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                    <ul class="hello">
+                        <li><a href="#warehouse-team">Superannuation Warehouse Team</a></li>
+                        <li><a href="#smsf-news">SMSF News</a></li>
+                        <li><a href="#smsf-qa">SMSF Q&A’s</a></li>
+                        <li><a href="#contact-us">Contact Us</a></li>
+                    </ul>
+                </li>
+                <hr>
+            </ul>
+        </div>
+
+        <header>
+            <div class="hero">
+                <div>
+                    <h1><span>SMSF</span> Superannuation Melbourne Services</h1>
+                    <!-- <p><span>Empowering</span> <span>You</span> <span>to</span> <span>Take</span> <span>Control</span> <span>of</span> <span>Your</span> <span>Retirement</span></p> -->
+                    <p id="animated-text">Empowering You to Take Control of Your Retirement</p>
+                    <button>Contact Us</button>
+                </div>
+                <div>
+                    <img src="./images/portrait-of-an-attractive-mature-businesswoman-2023-11-27-05-10-23-utc.png"
+                        alt="">
+                </div>
+            </div>
+        </header>
+        <article>
+            <h3>
+                <span>Superannuation Warehouse</span> is an accounting firm that focuses on delivering accounting and auditing services tailored specifically for SMSF Trustees<h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="290" height="240" viewBox="0 0 291 294"><path d="m145.48 18.18-9-9 9-9 9 9-9 9m0 33-7-7 7-7 7 7-7 7m0 34-6-6 6-6 6 6-6 6m-.5 34-4.5-4.5 4.5-4.5 4.5 4.5-4.5 4.5m.5 35-4-4 4-4 4 4-4 4m-18-120-8-8 8-8 8 8-8 8m.5 34-6.5-6.5 6.5-6.5 6.5 6.5-6.5 6.5m-.5 34-5-5 5-5 5 5-5 5m0 34-4-4 4-4 4 4-4 4m.5 35-3.5-3.5 3.5-3.5 3.5 3.5-3.5 3.5m-17.5-120-7-7 7-7 7 7-7 7m0 34-6-6 6-6 6 6-6 6m-.5 34-4.5-4.5 4.5-4.5 4.5 4.5-4.5 4.5m.5 35-4-4 4-4 4 4-4 4m0 34-3-3 3-3 3 3-3 3m-17.5-120-6.5-6.5 6.5-6.5 6.5 6.5-6.5 6.5m-.5 34-5-5 5-5 5 5-5 5m0 34-4-4 4-4 4 4-4 4m.5 35-3.5-3.5 3.5-3.5 3.5 3.5-3.5 3.5m-.5 35-3-3 3-3 3 3-3 3m-18-121-6-6 6-6 6 6-6 6m.5 34-4.5-4.5 4.5-4.5 4.5 4.5-4.5 4.5m-.5 35-4-4 4-4 4 4-4 4m0 34-3-3 3-3 3 3-3 3m.5 35-2.5-2.5 2.5-2.5 2.5 2.5-2.5 2.5m-17.5-121-5-5 5-5 5 5-5 5m0 34-4-4 4-4 4 4-4 4m-.5 35-3.5-3.5 3.5-3.5 3.5 3.5-3.5 3.5m.5 35-3-3 3-3 3 3-3 3m0 34-2-2 2-2 2 2-2 2m-17.5-121-4.5-4.5 4.5-4.5 4.5 4.5-4.5 4.5m-.5 35-4-4 4-4 4 4-4 4m0 34-3-3 3-3 3 3-3 3m.5 35-2.5-2.5 2.5-2.5 2.5 2.5-2.5 2.5m-.5 35-2-2 2-2 2 2-2 2m-18-122-4-4 4-4 4 4-4 4m.5 35-3.5-3.5 3.5-3.5 3.5 3.5-3.5 3.5m-.5 35-3-3 3-3 3 3-3 3m0 34-2-2 2-2 2 2-2 2m0 36-2-2 2-2 2 2-2 2m-17-122-4-4 4-4 4 4-4 4m0 34-3-3 3-3 3 3-3 3m-.5 35-2.5-2.5 2.5-2.5 2.5 2.5-2.5 2.5m.5 35-2-2 2-2 2 2-2 2m-.5 35-1.5-1.5 1.5-1.5 1.5 1.5-1.5 1.5m159.5-259-8-8 8-8 8 8-8 8m-.5 34-6.5-6.5 6.5-6.5 6.5 6.5-6.5 6.5m.5 34-5-5 5-5 5 5-5 5m0 34-4-4 4-4 4 4-4 4m-.5 35-3.5-3.5 3.5-3.5 3.5 3.5-3.5 3.5m17.5-120-7-7 7-7 7 7-7 7m0 34-6-6 6-6 6 6-6 6m.5 34-4.5-4.5 4.5-4.5 4.5 4.5-4.5 4.5m-.5 35-4-4 4-4 4 4-4 4m0 34-3-3 3-3 3 3-3 3m17.5-120-6.5-6.5 6.5-6.5 6.5 6.5-6.5 6.5m.5 34-5-5 5-5 5 5-5 5m0 34-4-4 4-4 4 4-4 4m-.5 35-3.5-3.5 3.5-3.5 3.5 3.5-3.5 3.5m.5 35-3-3 3-3 3 3-3 3m18-121-6-6 6-6 6 6-6 6m-.5 34-4.5-4.5 4.5-4.5 4.5 4.5-4.5 4.5m.5 35-4-4 4-4 4 4-4 4m0 34-3-3 3-3 3 3-3 3m-.5 35-2.5-2.5 2.5-2.5 2.5 2.5-2.5 2.5m17.5-121-5-5 5-5 5 5-5 5m0 34-4-4 4-4 4 4-4 4m.5 35-3.5-3.5 3.5-3.5 3.5 3.5-3.5 3.5m-.5 35-3-3 3-3 3 3-3 3m0 34-2-2 2-2 2 2-2 2m17.5-121-4.5-4.5 4.5-4.5 4.5 4.5-4.5 4.5m.5 35-4-4 4-4 4 4-4 4m0 34-3-3 3-3 3 3-3 3m-.5 35-2.5-2.5 2.5-2.5 2.5 2.5-2.5 2.5m.5 35-2-2 2-2 2 2-2 2m18-122-4-4 4-4 4 4-4 4m-.5 35-3.5-3.5 3.5-3.5 3.5 3.5-3.5 3.5m.5 35-3-3 3-3 3 3-3 3m0 34-2-2 2-2 2 2-2 2m0 36-2-2 2-2 2 2-2 2m17-122-4-4 4-4 4 4-4 4m0 34-3-3 3-3 3 3-3 3m.5 35-2.5-2.5 2.5-2.5 2.5 2.5-2.5 2.5m-.5 35-2-2 2-2 2 2-2 2m.5 35-1.5-1.5 1.5-1.5 1.5 1.5-1.5 1.5" fill="#E7EDEB" fill-rule="evenodd"></path></svg>
+
+        </article>
+        <div style="border: 2px solid red">
+            <div class="card-container">
+                <div class="card">
+                    <h2>Card 1</h2>
+                    <p>This is the first card.</p>
+                </div>
+                <div class="card">
+                    <h2>Card 2</h2>
+                    <p>This is the second card.</p>
+                </div>
+                <div class="card">
+                    <h2>Card 3</h2>
+                    <p>This is the third card.</p>
+                </div>
+                <div class="card">
+                    <h2>Card 4</h2>
+                    <p>This is the fourth card.</p>
+                </div>
+                <div class="card">
+                    <h2>Card 5</h2>
+                    <p>This is the fifth card.</p>
+                </div>
+                <div class="card">
+                    <h2>Card 6</h2>
+                    <p>This is the sixth card.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./style.js"></script>
+</body>
+
+</html>
