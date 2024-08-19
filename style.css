@@ -389,7 +389,6 @@ header {
     align-items: center;
 }
 
-.warehouse-focus svg {}
 
 .warehouse-focus h3 {
     font-size: 2.3rem;
@@ -410,6 +409,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    justify-items: center;
 }
 
 .card {
@@ -418,12 +418,27 @@ header {
     border-bottom: 1px solid black;
     transition: transform 0.3s ease;
 }
-
-.card:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
+.why-choose-us{
+    padding: 3rem 0;
 }
-
+.why-choose-us h2{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    padding: 0rem 0rem 2rem 0rem;
+}
+.choose-us-card{
+    width: 70%;
+    border: none;
+    box-shadow: 0 0 10px 0 rgb(174, 173, 173);
+    transition: 0.4s
+}
+.choose-us-card:hover{
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s
+}
 .card h4 {
     display: flex;
     justify-content: space-between;
@@ -433,7 +448,18 @@ header {
     padding: 1rem;
     color: #333;
 }
-
+.choose-us-card h4{
+    padding:1rem 1rem 0rem 1rem;
+    line-height: 2rem;
+}
+.choose-us-card:hover p{
+    color: white;
+    transition: 0.4s
+}
+.choose-us-card:hover h4{
+    color: white;
+    transition: 0.4s 
+}
 .card h4:hover {
     color: var(--secondary-color);
 }
@@ -525,6 +551,9 @@ header {
     .ScaleGrow div:nth-child(2) svg {
         height: 500px;
         padding-top: 2rem;
+    }
+    .choose-us-card{
+        width: 100%;
     }
 
 }
@@ -621,7 +650,6 @@ header {
     .card h4 {
         font-size: 1rem;
     }
-
     .ScaleGrow {
         display: flex;
         flex-wrap: wrap;
@@ -655,6 +683,12 @@ header {
     .ScaleGrow div:nth-child(2) svg {
         height: 500px;
         padding-top: 2rem;
+    }
+    .choose-us-card{
+        width: 100%;
+    }
+    .why-choose-us h2{
+        font-size: 1.6rem;
     }
 }
 
