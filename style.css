@@ -419,7 +419,7 @@ header {
     transition: transform 0.3s ease;
 }
 .why-choose-us{
-    padding: 3rem 0;
+    padding: 3rem 0 5rem 0;
 }
 .why-choose-us h2{
     text-align: center;
@@ -428,7 +428,7 @@ header {
     padding: 0rem 0rem 2rem 0rem;
 }
 .choose-us-card{
-    width: 70%;
+    width: 85%;
     border: none;
     box-shadow: 0 0 10px 0 rgb(174, 173, 173);
     transition: 0.4s
@@ -510,7 +510,31 @@ header {
     color: #666;
 
 }
-
+.includes{
+    height: auto;
+    background-image: linear-gradient(rgb(45, 76, 61, 0.801), rgba(45, 76, 61, 0.801)), url(./images/GettyImages-1277288373.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--hover-color);
+}
+.includes-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr) ;
+    justify-items: center;
+    gap: 20px;
+}
+.includes-cards{
+    border-right: 2px solid var(--hover-color);
+    padding: 1rem;
+}
+.includes h2{
+    letter-spacing: 0.4rem;
+    padding: 2rem;
+}
 @media (max-width: 1024px) {
     nav {
         gap: 1rem;
@@ -688,8 +712,17 @@ header {
         width: 100%;
     }
     .why-choose-us h2{
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
+    .includes-container{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr) ;
+        justify-items: center;
+        gap: 20px;
+    }
+    /* .includes-cards:nth-child(1){
+        border-bottom: 2px solid var(--hover-color);
+    } */
 }
 
 
@@ -763,7 +796,9 @@ header {
     .card-container {
         grid-template-columns: 1fr;
     }
-
+    .why-choose-us h2{
+        font-size: 1.6rem;
+    }
     .simple-setup h3 {
         font-size: 1.1rem;
         padding: 1rem 0 0 0;
@@ -774,5 +809,19 @@ header {
         line-height: 2.5rem;
         color: var(--primary-color);
         padding: 2rem 0rem;
+    }
+    .includes-container{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr) ;
+        justify-items: center;
+        gap: 20px;
+    }
+    .includes-cards{
+        border: none;
+        border-bottom: 2px solid var(--hover-color) ;
+    }
+    .includes h2{
+        font-size: 1.6rem;
+        white-space: nowrap;
     }
 }
